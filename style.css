@@ -95,6 +95,12 @@ h2 {
     font-size: 1.5rem;
     letter-spacing: 0.3rem;
   }
+  .section-dark {
+    padding: 3rem;
+  }
+  .section-light {
+    padding: 3rem;
+  }
 }
 @media (max-width: 464px) {
   .ptext {
@@ -105,9 +111,31 @@ h2 {
   .textBg {
     padding: 15px;
   }
+  .section-dark {
+    padding: 3rem;
+  }
+  .section-light {
+    padding: 3rem;
+  }
 }
 @media (max-width: 380px) {
   .ptext {
     letter-spacing: 0;
   }
+  .section-dark {
+    padding: 2rem;
+  }
+  .section-light {
+    padding: 2rem;
+  }
 }
+/* .section-dark {
+  min-height: 15rem;
+  color: antiquewhite;
+
+  background: #003049;
+  padding: 5rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 1.2rem;
+} */
