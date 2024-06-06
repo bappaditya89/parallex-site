@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background: url(./images/1st.jpeg);
+  min-height: 100%;
+}
+.pimg2 {
+  background: url(./images/2nd.jpeg);
+  min-height: 500px;
+}
+.pimg3 {
+  background: url(./images/3rd.jpeg);
+  min-height: 500px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ptext {
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  letter-spacing: 1rem;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.textBg {
+  background: #003049;
+
+  padding: 40px;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+.textBg a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.section-light {
+  min-height: 22rem;
+
+  padding: 5rem;
+
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4a4e69;
+}
+h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.section-dark {
+  min-height: 15rem;
+  color: antiquewhite;
+
+  background: #003049;
+  padding: 5rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Media Queries */
+@media (max-width: 788px) {
+  .ptext {
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+  }
+}
+@media (max-width: 572px) {
+  .ptext {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+  }
+}
+@media (max-width: 464px) {
+  .ptext {
+    letter-spacing: 0.2rem;
+  }
+}
+@media (max-width: 422px) {
+  .textBg {
+    padding: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .ptext {
+    letter-spacing: 0;
+  }
+}
